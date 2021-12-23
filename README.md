@@ -184,3 +184,14 @@ The trained data plot can be seen
 
 #### Improve on the reference
 This section should highlight the different strategies you adopted to improve your model. It should contain relevant figures and details of your findings.
+
+Adding grey, contrast and blur
+
+![contr](https://user-images.githubusercontent.com/89602857/147262744-ea259a67-f9b6-4c1a-a881-19f3d03b27e0.png)
+![blur](https://user-images.githubusercontent.com/89602857/147262753-4242213d-7444-409c-b787-c84261895aa6.png)
+![grey](https://user-images.githubusercontent.com/89602857/147262761-68e43466-0658-4710-b691-7a87ee10e077.png)
+
+Training and validation plots
+
+![tain2](https://user-images.githubusercontent.com/89602857/147263095-572f62a7-4109-4895-8442-321d2928f12c.PNG)
+![val1_1](https://user-images.githubusercontent.com/89602857/147263123-ecb386e9-0655-4229-9cef-48cc8d6bbe72.PNG)
