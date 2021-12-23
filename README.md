@@ -141,7 +141,7 @@ python inference_video.py --labelmap_path label_map.pbtxt --model_path experimen
 ## Submission Template
 
 ### Project overview
-The repository contains the files of the self-driving car project by Udacity. The main objective of this project is to detect the objects like cars, pedestrians, and bicycles. I have used the project workspace provided by Udacity to perform the detection and data exploration. The Waymo dataset is pre-loaded into the workspace as tfrecord files, and it is analyzed and then split into train, validation and test files. The config file is created using a pre-trained SSD Resnet 50 640x640 model by python programming. The config file was used to train the waymo data and validate it.
+The repository contains the files of the self-driving car project by Udacity. The main objective of this project is to detect the objects like cars, pedestrians, and cyclists. I have used the project workspace provided by Udacity to perform the detection and data exploration. The Waymo dataset is pre-loaded into the workspace as tfrecord files, and it is analyzed and then split into train, validation and test files. The config file is created using a pre-trained SSD Resnet 50 640x640 model by python programming. The config file was used to train the waymo data and validate it.
 
 ### Set up
 Since I have used the Udacity workspace for execution of program, I haven't used setup. To do set up please read the build readme document.
@@ -150,6 +150,8 @@ Since I have used the Udacity workspace for execution of program, I haven't used
 The dataset is in tfrecord format, and the waymo vehicle recorded the data. The data captured were in different weather, different lighting condition, different location. The images vary from blur to clear and bright to dark. The rectangle bounding boxes are drawn over on the detected objects in images.
 
 #### Dataset analysis
+The below bar chart represents the distribution of classes over 10000 images. The number of car classes from the label is larger than the pedestrians and cyclists.
+![bar1](https://user-images.githubusercontent.com/89602857/147228853-2f490e4c-cdb0-495a-8322-4f27a7b736ed.png)
 
 
 ![im4](https://user-images.githubusercontent.com/89602857/147228448-3ac7dae4-4137-47cd-9b3e-39659a0175d5.png)
