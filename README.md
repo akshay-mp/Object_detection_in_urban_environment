@@ -13,7 +13,7 @@ For this project, we will be using data from the [Waymo Open dataset](https://wa
 The data you will use for training, validation and testing is organized as follow:
 ```
 /home/workspace/data/waymo
-	- training_and_validation - contains 97 files to train and validate your models
+    - training_and_validation - contains 97 files to train and validate your models
     - train: contain the train data (empty to start)
     - val: contain the val data (empty to start)
     - test - contains 3 files to test your model and create inference videos
@@ -141,14 +141,17 @@ python inference_video.py --labelmap_path label_map.pbtxt --model_path experimen
 ## Submission Template
 
 ### Project overview
-This section should contain a brief description of the project and what we are trying to achieve. Why is object detection such an important component of self driving car systems?
+The repository contains the files of the self-driving car project by Udacity. The main objective of this project is to detect the objects like cars, pedestrians, and bicycles. I have used the project workspace provided by Udacity to perform the detection and data exploration. The Waymo dataset is pre-loaded into the workspace as tfrecord files, and it is analyzed and then split into train, validation and test files. The config file is created using a pre-trained SSD Resnet 50 640x640 model by python programming. The config file was used to train the waymo data and validate it.
 
 ### Set up
-This section should contain a brief description of the steps to follow to run the code for this repository.
+Since I have used the Udacity workspace for execution of program, I haven't used setup. To do set up please read the build readme document.
 
 ### Dataset
+The dataset is in tfrecord format, and the waymo vehicle recorded the data. The data captured were in different weather, different lighting condition, different location. The images vary from blur to clear and bright to dark. The rectangle bounding boxes are drawn over on the detected objects in images.
+
 #### Dataset analysis
-This section should contain a quantitative and qualitative description of the dataset. It should include images, charts and other visualizations.
+
+
 #### Cross validation
 This section should detail the cross validation strategy and justify your approach.
 
