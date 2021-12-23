@@ -152,6 +152,17 @@ The dataset is in tfrecord format, and the waymo vehicle recorded the data. The 
 #### Dataset analysis
 
 
+![im4](https://user-images.githubusercontent.com/89602857/147228448-3ac7dae4-4137-47cd-9b3e-39659a0175d5.png)
+![im3](https://user-images.githubusercontent.com/89602857/147228452-dbdbfa4b-4e23-4284-abde-a6d93e9c8dad.png)
+![im2](https://user-images.githubusercontent.com/89602857/147228454-3de6ee50-2f4a-425a-ab1f-0dcfb299583b.png)
+![im1](https://user-images.githubusercontent.com/89602857/147228459-18d8bf72-bcda-40b1-bda2-a6f89a65df08.png)
+![im10](https://user-images.githubusercontent.com/89602857/147228461-c2247f56-0541-4968-9a0d-4912cd462f0b.png)
+![im9](https://user-images.githubusercontent.com/89602857/147228462-0d50b94a-0690-4355-9d13-179cfe0e6224.png)
+![im8](https://user-images.githubusercontent.com/89602857/147228466-2b524377-82cd-474f-8d75-5c1daf2e4dc3.png)
+![im7](https://user-images.githubusercontent.com/89602857/147228469-2a7b14d0-f351-40b2-99f5-eed780e882a1.png)
+![im6](https://user-images.githubusercontent.com/89602857/147228473-a9150f6a-ff46-4768-b1af-2436d638ac10.png)
+![im5](https://user-images.githubusercontent.com/89602857/147228476-3c8f8134-e214-4d26-9301-9745cd7eebb6.png)
+
 #### Cross validation
 This section should detail the cross validation strategy and justify your approach.
 
