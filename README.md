@@ -150,9 +150,11 @@ Since I have used the Udacity workspace for execution of program, I haven't used
 The dataset is in tfrecord format, and the waymo vehicle recorded the data. The data captured were in different weather, different lighting condition, different location. The images vary from blur to clear and bright to dark. The rectangle bounding boxes are drawn over on the detected objects in images.
 
 #### Dataset analysis
-The below bar chart represents the distribution of classes over 10000 images. The number of car classes from the label is larger than the pedestrians and cyclists.
+The below bar chart represents the distribution of classes over 10000 images. The number of car classes from the label is greater than pedestrians and cyclists. The cyclists class is fewer when compared to pedestrians, and in the images, the cars and pedestrians classes dominate.
+
 ![bar1](https://user-images.githubusercontent.com/89602857/147228853-2f490e4c-cdb0-495a-8322-4f27a7b736ed.png)
 
+The captured images are from daytime busy city streets, expressways, uphill roads, and foggy weather. The cars are drawn with red anchor boxes while pedestrians in blue and cyclists in green. 
 
 ![im4](https://user-images.githubusercontent.com/89602857/147228448-3ac7dae4-4137-47cd-9b3e-39659a0175d5.png)
 ![im3](https://user-images.githubusercontent.com/89602857/147228452-dbdbfa4b-4e23-4284-abde-a6d93e9c8dad.png)
@@ -165,12 +167,20 @@ The below bar chart represents the distribution of classes over 10000 images. Th
 ![im6](https://user-images.githubusercontent.com/89602857/147228473-a9150f6a-ff46-4768-b1af-2436d638ac10.png)
 ![im5](https://user-images.githubusercontent.com/89602857/147228476-3c8f8134-e214-4d26-9301-9745cd7eebb6.png)
 
+The majority of objects in the dataset are cars and pedestrians, while fewer cyclists are detected.
+
 #### Cross validation
-This section should detail the cross validation strategy and justify your approach.
+The datasets are randomly shuffled so that the images won't get trained for a similar pattern, and images are equally shuffled. 75% of the datasets were split for training, 25% for validation, and 3 datasets for testing. 
 
 ### Training
 #### Reference experiment
 This section should detail the results of the reference experiment. It should includes training metrics and a detailed explanation of the algorithm's performances.
+The trained data plot can be seen 
+
+![train1](https://user-images.githubusercontent.com/89602857/147259418-b4d36918-2b3e-46bd-b836-2d60bdc69c86.PNG)
+
+![val1](https://user-images.githubusercontent.com/89602857/147259465-f3e79f49-ee27-4f05-9dfa-6cfaa331c813.PNG)
+
 
 #### Improve on the reference
 This section should highlight the different strategies you adopted to improve your model. It should contain relevant figures and details of your findings.
