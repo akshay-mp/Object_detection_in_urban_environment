@@ -19,7 +19,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 # Needed for string substitution
 SHELL ["/bin/bash", "-c"]
 # Pick up some TF dependencies
-RUN apt-get update && apt-get install -y --no-install-recommends \
+RUN apt-get update && apt-get install -y --no-install-recommends && --fix-missing \
         build-essential \
         ffmpeg \
 	    git \
